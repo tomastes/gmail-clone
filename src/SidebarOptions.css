@@ -1,0 +1,50 @@
+.sidebarOption{
+
+    display: flex;
+    flex-direction: row;
+    color: gray;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    cursor: pointer;
+    margin: 5px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+.sidebarOption > .MuiSvgIcon-root{
+    padding: 5px;
+    margin-left: 15px;
+}
+.sidebarOption> h3{
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight:
+     400;
+     flex: 1;
+}
+.sidebarOption>p{
+    display: none;
+}
+.sidebarOption:hover .number,.sidebar--active > .number{
+    display: inline;
+    color: #e15d54;
+    font-weight: 700;
+    margin-right: 15px;
+}
+.sidebarOption:hover,.sidebar--active {
+    background-color: #fce8e6;
+    border-top-right-radius: 70px;
+    border-bottom-right-radius: 70px;
+}
+.sidebarOption:hover> .MuiSvgIcon-root,.sidebar--active>.MuiSvgIcon-root{
+    color:  #e15d54;
+}
+.sidebarOption:hover> .option_title,.sidebar--active>.option_title{
+    color:#e15d54;
+    font-weight: bold;
+}
+.sidebar_footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}

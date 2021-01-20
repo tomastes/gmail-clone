@@ -1,0 +1,25 @@
+.login_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    border: 1px solid blue;
+}
+.login_container>div>img{
+    padding: 0;
+}
+.login_container>div{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+ border: 3px solid blue;
+ 
+}
+.login_container>div>p{
+    background-color: rgba(1, 1, 255, 0.767);
+    padding: 15px 19px;
+    margin: 0;
+    color: whitesmoke;
+}
